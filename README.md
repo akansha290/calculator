@@ -1,19 +1,23 @@
 # Infrastructure As A Code /Terraform Accelerator/ 2-Tier or 3-Tier App Deployment using Terraform
 
-## Table Of Content
- * [Solution overview](#solution-overview)
-   * [General information](#general-information)
+## Table of content
+
+   * [Solution Overview](#solution-overview)
+   * [General Information](#general-information)
    * [Infrastructure](#infrastructure)
+      * [Project Infrastructure](#project-infrastructure)
       * [Infrastructure Architecture](#infrastructure-architecture)
         * [Infrastructure considerations due to demo proposals](#infrastructure-considerations-due-to-demo-proposals)
       * [CI/CD Architecture](#ci/cd-architecture)
       * [Prerequisites](#prerequisites)
       * [Usage](#usage)
-      * [Autoscaling test](#autoscaling-test)
    * [Application Code](#application-code)
      * [Client app](#client-app)
      * [Server app](#server-app)
    * [Cleanup](#cleanup)
+   * [Security](#security)
+   * [License](#license)
+   
    
 
 ## Solution Overview
@@ -45,7 +49,7 @@ The Infrastructure folder contains the terraform code to deploy the AWS resource
 - 1 RDS
 - 1 SNS topic for notifications
 
-# Project Infrastructure Diagram
+### Project Infrastructure
 
 The following diagram represents the Infrastructure of the following Repository.
 
@@ -67,14 +71,14 @@ Feel free to change or to replace the values dynamically.
 
 Feel fre to create a subscriptor for the SNS topic created by this code, in order to get informed of the status of each finished CodeDeploy deployment.
 
-## CI/CD Architecture
+### CI/CD Architecture
     The following diagram represents the CI/CD architecture being used for deployment of Application:
 
 <p align="center">
   <img src="Documentation_assets/CICD_architecture.png"/>
 </p>
 
-## Prerequisites
+### Prerequisites
 There are general steps that you must follow in order to launch the infrastructure resources.
 
 Before launching the solution please follow the next steps:
@@ -90,7 +94,7 @@ Before launching the solution please follow the next steps:
 
 3) Generate a GitHub token. You can follow [this](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) steps to generate it.
 
-## Usage
+### Usage
 
 **1.** Fork this repository and create the GitHub token granting access to this new repository in your account.
 
