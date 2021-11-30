@@ -15,8 +15,6 @@
      * [Client app](#client-app)
      * [Server app](#server-app)
    * [Cleanup](#cleanup)
-   * [Security](#security)
-   * [License](#license)
    
    
 
