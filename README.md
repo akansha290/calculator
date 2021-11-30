@@ -8,7 +8,7 @@
       * [Project Infrastructure](#project-infrastructure)
       * [Infrastructure Architecture](#infrastructure-architecture)
         * [Infrastructure considerations due to demo proposals](#infrastructure-considerations-due-to-demo-proposals)
-      * [CI/CD Architecture](#ci/cd-architecture)
+      * [CI/CD Architecture](#cd-architecture)
       * [Prerequisites](#prerequisites)
       * [Usage](#usage)
    * [Application Code](#application-code)
